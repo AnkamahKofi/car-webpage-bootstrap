@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+.carousel-inner img {
+    height: 500px;
+    background-position: center;
+    object-fit: cover; 
+}
+.container-fluid{
+    display: flex;
+    margin: 0;
+    width: 100;
+    gap: 20px;
+}
+.main-area{
+    padding:20px;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.services{
+    justify-content: center;
+}
+
+.services h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-body {
+    padding: 20px;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+button.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+}
+.images{
+    padding-top: 30px;
+    display: flex;
+    gap: 40px;
+}
+
+.rounded-image {
+    border-top-left-radius: 200px;
+    height: 150px;
+    width: 150px;
+}
+.images img{
+    background-size: cover;
+    background-position: center;
+}
+.images .card {
+    height: fit-content;
+    border-color: transparent; 
+    box-shadow: none; 
+}
+form{
+    padding-top: 30px;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-area{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+iframe{
+    border-radius: 10px;
+    margin-top: 20px;
+}
